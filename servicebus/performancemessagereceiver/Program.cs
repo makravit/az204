@@ -8,7 +8,7 @@ namespace performancemessagereceiver
 {
     class Program
     {
-        const string ServiceBusConnectionString = "Endpoint=sb://salesteamapp-mkv-20200520.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=1bvJr59QlZR+RQHZWWDVUz3cVpMoH8DYDJdY5Nnb1M8=";
+        const string ServiceBusConnectionString = "";
         const string TopicName = "salesperformancemessages";
         const string SubscriptionName = "Americas";
         static ISubscriptionClient subscriptionClient;
